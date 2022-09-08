@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 });
 
 // Routes which should handle requests
-app.use('/addbook', logProcessorRoutes);
+app.use('/v1', logProcessorRoutes);
 
 app.use((req, res, next) => {
   const error = new Error("Not found");

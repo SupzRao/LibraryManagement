@@ -1,3 +1,6 @@
+const fs = require('fs');
+
+
 class Helper
 {
     static writejson(data,filename)
